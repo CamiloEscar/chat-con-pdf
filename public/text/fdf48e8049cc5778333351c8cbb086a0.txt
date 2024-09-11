@@ -1,0 +1,344 @@
+1) Demostar, de dos maneras distintas, que:¬[(PVQ) A (PA (PAQ))]<>>¬P V¬Q
+Demostración de la equivalencia -[(PVQ)A (PA (PAQ))] >>¬PV-Q
+Demostración 1: usando tablas de verdad
+1. Construimos una tabla de verdad con las cuatro variables proposicionales: P, Q, ¬P y ¬Q.
+P
+Q
+¬P ¬Q
+¬(PVQ)
+T
+T
+F
+T
+F
+FL
+FL
+T
+T
+PɅ(PAQ)
+-[(PVQ)^(PA(PAQ))]
+חד
+F
+F
+T
+F
+¬PV¬Q
+F
+T
+T
+F
+T
+T
+LL
+F
+T
+LL
+F
+T
+T
+F F T
+T
+T
+F
+F
+LL
+F
+2. Observamos que la columna de [(PVQ)A (PA (PAQ))] y la columna de ¬PV-Q tienen los mismos
+valores para todas las filas.
+3. Por lo tanto, podemos concluir que [(PVQ)A (PA (PAQ))]PV-Q es una tautología.
+Demostración 2: usando equivalencias lógicas
+1. Comenzamos con la fórmula
+[(PVQ)A (PA (PAQ))].
+2. Usamos la ley de De Morgan para distribuir la negación:
+[(PVQ)A (PA (PAQ))] = (PVQ) V (PA(PAQ))
+3. Usamos la ley de De Morgan nuevamente para distribuir la negación:
+(PVQ) V (PA (PAQ)) = PA¬Q V ¬(PA (PAQ))
+4. Usamos la ley de absorción para eliminar la redundancia:
+PAQ V (PA (PAQ)) = PA¬Q V ¬P
+5. Usamos la ley de asociatividad para cambiar el orden de las proposiciones:
+PA¬Q VP = ¬P V PA¬Q
+6. Finalmente, usamos la ley de conmutatividad para cambiar el orden de las proposiciones:
+Conclusión:
+P V PAQ = ¬PV ¬Q
+En ambas demostraciones, hemos demostrado que ¬[(¬PVQ)^(PA (PAQ))]¬PV¬Q es una
+tautología.
+En otras palabras, las dos proposiciones son equivalentes, es decir, tienen el mismo valor de
+verdad para todas las posibles asignaciones de valores de verdad a las variables
+proposicionales P y Q.
+•
+•
+2) Dados los conjuntos A = {a, b, c}, B = {a, {b,c}, d}; C = {b, c, d} Y D = {{a, b, c}, d}a) Determinar el valor de
+verdad de las siguientes proposiciones justificando aquellas que sean falsas
+ASD
+AED
+{{b, c}} = P(C)
+{a, {b, c}} C B
+CA
+(BB) A (A)
+Análisis de las proposiciones:
+a) AD: Verdadero.
+Todos los elementos de A (a, b, c) también son elementos de D.
+Un conjunto se considera subconjunto de otro si todos sus elementos están contenidos en el otro.
+En este caso, A cumple con esta condición.
+b) A =D: Falso.
+•
+Un conjunto no puede ser elemento de sí mismo.
+La proposición A = D es incorrecta por la definición de pertenencia a un conjunto.
+.
+A es un conjunto, mientras que D es otro conjunto que contiene a A como uno de sus elementos.
+c) {{b, c}} = P(C): Verdadero.
+• P(C) es el conjunto potencia de C, que contiene todos los subconjuntos de C.
+• {{b, c}} es un subconjunto de C, ya que todos sus elementos (b y c) también son elementos de C.
+•
+Por lo tanto, {{b, c}} está presente en P(C).
+•
+•
+d) {a, {b, c}} C B: Verdadero.
+La notación C indica que un conjunto es un subconjunto propio de otro.
+{a, {b, c}} cumple con esta condición, ya que todos sus elementos (a y {b, c}) también son elementos de B.
+Además, {a, {b, c}} no es igual a B, ya que B tiene un elemento más (d).
+e) CA: Verdadero.
+El conjunto vacío (0) es un subconjunto de cualquier conjunto.
+Esto se debe a que no tiene elementos, por lo que no hay ninguna restricción para que sea un subconjunto
+de otro.
+En este caso, también es un subconjunto de A.
+f) (BCB) A (EA): Verdadero.
+Ambas proposiciones dentro del paréntesis son verdaderas.
+BCB, ya que un conjunto siempre es un subconjunto de sí mismo.
+Ø = A, como se mencionó anteriormente, el conjunto vacío es un subconjunto de cualquier conjunto,
+incluyendo A.
+Al ser ambas proposiciones verdaderas, la conjunción (^) también es verdadera.
+En resumen:
+AD: Verdadero
+A = D: Falso
+{{b, c}} = P(C): Verdadero
+{a, {b, c}} C B: Verdadero
+CA: Verdadero
+(BB) A (EA): Verdadero
+Justificación de las proposiciones falsas:
+a) A = D: Es incorrecta porque un conjunto no puede ser elemento de sí mismo. La noción de pertenencia se
+aplica a elementos individuales, no a conjuntos completos.
+Explicación adicional:
+• La relación de pertenencia se define como "x = A" si y solo si "x es un elemento del conjunto A".
+Un conjunto es una colección de elementos, no un elemento en sí mismo.
+Por lo tanto, la proposición A = D no tiene sentido y se considera falsa.
+b) Realizar las operaciones, indicando cada paso efectuado: (ANC) - (CAD)
+Resolución de la operación (ANC) - (CAD):
+Paso 1: Intersección de A y C
+An C = {b, c}
+Se toman los elementos que son comunes a ambos conjuntos A y C.
+En este caso, solo "b" y "c" son comunes a ambos.
+Paso 2: Diferencia simétrica entre C y D
+CAD = {a, d}
+• La diferencia simétrica entre dos conjuntos (C y D) se define como los elementos que están en uno de los
+conjuntos pero no en el otro.
+•
+En este caso, "a" solo está en C, mientras que "d" solo está en D.
+Paso 3: Diferencia entre An CYCAD
+(ANC) (CAD) = {b, c} - {a, d} = {b, c}
+Se eliminan los elementos de C A D que no están en An C.
+Como "a" y "d" no están en An C, se eliminan del resultado final.
+El resultado final es {b, c}.
+En resumen:
+(ANC) (CAD) = {b, c}
+Explicación de cada paso:
+Intersección (n): Se toman los elementos que son comunes a ambos conjuntos.
+• Diferencia simétrica (A): Se toman los elementos que están en uno de los conjuntos pero no en el otro.
+Diferencia (-): Se eliminan los elementos del segundo conjunto que no están en el primer conjunto.
+Representación gráfica:
+Diagrama de Venn:
+Explicación del diagrama:
+Los círculos representan los conjuntos A, B, C y D.
+La zona sombreada en verde representa la intersección de A y C (ANC).
+La zona sombreada en rojo representa la diferencia simétrica entre C y D (CAD).
+• La zona sombreada en azul representa la diferencia entre ANCY CAD ((ANC) - (CAD)).
+Conclusión: El resultado de la operación (ANC) - (CAD) es el conjunto {b, c}.
+3) La relación R definida sobre el conjunto A = {-1. 0, 1, 2, -2} tal que vay b = A:aRba = b V a + b =
+0, es una relación de equivalencia, comprobarlo de manera justificada y hallar sus clases de
+equivalencia
+Demostración de que R es una relación de equivalencia:
+1. Reflexividad:
+Para todo a = A, se cumple que aRa.
+Demostración:
+○
+aRa aa Va+a=0
+•
+о Ambas condiciones son siempre verdaderas, ya que todo número es igual a sí mismo y la suma de
+cualquier número con él mismo es 0.
+2. Simetría:
+Para todo a, b = A, si aRb entonces bRa.
+Demostración:
+Supongamos que aRb.
+Entonces, ab Va+b= 0.
+о
+о
+Si ab, entonces b = a (por simetría).
+Si a + b = 0, entonces b + a = 0 (por conmutatividad de la suma).
+о
+En ambos casos, se cumple que bRa.
+3. Transitividad:
+Para todo a, b, c = A, si aRb y bRc entonces aRc.
+°
+о
+о
+Demostración:
+Supongamos que aRb y bRc.
+Entonces, a = b Va+b=0yb = c V b + c = 0.
+Si a = b, entonces a = c (por transitividad de la igualdad).
+Si a + b = 0, entonces b = -a. Sustituyendo en b = c, obtenemos que a = c. Sumando a ambos lados de
+la ecuación, se obtiene a + c = 0.
+о
+En ambos casos, se cumple que aRc.
+Conclusión:
+Al cumplirse las propiedades de reflexividad, simetría y transitividad, la relación R definida sobre el conjunto A
+es una relación de equivalencia.
+Clases de equivalencia:
+Las clases de equivalencia son los conjuntos de elementos que se relacionan entre sí bajo la relación R.
+Clase 1: [-1, 1]
+• Todos los elementos de esta clase se relacionan entre sí porque la suma de cada uno con su opuesto es 0.
+Clase 2: [0]
+El elemento 0 se relaciona consigo mismo porque 0 + 0 = 0.
+Clase 3: [2, -2]
+Todos los elementos de esta clase se relacionan entre sí porque la suma de cada uno con su opuesto es 0.
+En resumen:
+Las clases de equivalencia de la relación R son:
+• [-1, 1]
+• [0]
+[2, -2]
+Representación gráfica:
+Diagrama de Venn:
+Explicación del diagrama:
+Los círculos representan las clases de equivalencia.
+Los elementos dentro de cada círculo se relacionan entre sí bajo la relación R.
+4) a) si G tiene 15 aristas con 3 vertices de grado 6 y los vertices restantes de grado 4, ¿Cuantos
+vertices en total posee?
+b) Dibujar, si existen dos grafos uno de 4 vertices y otro de 5 vertices con cada uno un ciclo de Euler,
+¿Que característica poseen para encontrar un ciclo de Euler?
+Teoría de grafos
+a) Número total de vértices en G:
+1. Cálculo del número de aristas por vértice de grado 4:
+Si hay x vértices de grado 4, entonces cada uno contribuye con 4 aristas al total.
+El número total de aristas por vértices de grado 4 es 4x.
+2. Ecuación para el número total de aristas:
+El número total de aristas (15) es la suma de las aristas de los vértices de grado 6 y las aristas de los
+vértices de grado 4.
+La ecuación es: 15 = 3 * 6 + 4x.
+3. Resolución de la ecuación para x:
+• Despejamos x: x = (15-3*6)/4 = 1.5.
+• Como no puede haber un número fraccional de vértices, se descarta esta solución.
+4. Conclusión:
+• No existe un grafo con 15 aristas, 3 vértices de grado 6 y el resto de grado 4.
+La suma de los grados de todos los vértices en un grafo siempre es un número par, lo que se conoce como
+Teorema del apretón de manos. En este caso, la suma de los grados de los vértices de grado 6 es 18,
+que es par. Sin embargo, si existieran x vértices de grado 4, la suma de sus grados sería 4x, que sería
+impar. Esto contradice el teorema del apretón de manos, por lo que no puede existir un grafo con las
+características descritas.
+•
+•
+b) Grafos con ciclo de Euler:
+1. Grafo de 4 vértices:
+No existe un grafo de 4 vértices con un ciclo de Euler.
+Un ciclo de Euler es un ciclo que pasa por todas las aristas de un grafo exactamente una vez.
+Para que un grafo tenga un ciclo de Euler, todos sus vértices deben tener un grado par. En un grafo de 4
+vértices, si dos vértices tienen un grado impar (por ejemplo, 3), los otros dos vértices deben tener un grado
+impar para que la suma de los grados sea par. Sin embargo, esto no es posible, ya que la suma de los
+grados de todos los vértices siempre es par.
+2. Grafo de 5 vértices:
+Existe un grafo de 5 vértices con un ciclo de Euler.
+Un ejemplo de este grafo es un pentaedro, que es un poliedro con 5 caras y 5 vértices.
+En un pentaedro, cada vértice está conectado a otros 4 vértices, lo que significa que todos los vértices
+tienen un grado 4.
+Al recorrer el grafo, es posible encontrar un ciclo que pase por todas las aristas exactamente una vez.
+Característica para encontrar un ciclo de Euler:
+Un grafo tiene un ciclo de Euler si y solo si todos sus vértices están conectados y todos sus vértices tienen
+un grado par.
+Representación gráfica:
+Grafo de 4 vértices sin ciclo de Euler: [se quitó una URL no válida]
+• Grafo de 5 vértices con ciclo de Euler (pentaedro): [se quitó una URL no válida]
+Explicación de los diagramas:
+Los vértices se representan como puntos.
+Las aristas se representan como líneas que conectan los vértices.
+En el grafo de 4 vértices, dos vértices tienen un grado impar (3) y dos vértices tienen un grado par (2).
+• En el grafo de 5 vértices (pentaedro), todos los vértices tienen un grado 4.
+Conclusión:
+Un grafo con un ciclo de Euler debe tener la propiedad de que todos sus vértices están conectados y todos
+sus vértices tienen un grado par.
+• Esta propiedad es necesaria y suficiente para la existencia de un ciclo de Euler en un grafo.
+•
+•
+.
+5) Responder en las 3 lineas de puntos el valor y justificar:
+a) Un hospital cuenta con 21 cirujanos con los cuales hay que formar ternas para realizar guardias. Se
+pueden formar
+ternas.
+a) Un hospital cuenta con 21 cirujanos con los cuales hay que formar ternas para realizar guardias. Se
+pueden formar 1330 ternas.
+Justificación:
+Para formar una terna, se elige un primer cirujano de entre 21 posibilidades, luego un segundo de entre 20
+posibilidades restantes, y finalmente un tercero de entre 19 posibilidades.
+El número total de ternas posibles se calcula como el producto de las posibilidades en cada etapa:
+21 20 19 = 1330
+Explicación:
+21 posibilidades para el primer cirujano: Hay 21 cirujanos disponibles para elegir el primero de la terna.
+20 posibilidades para el segundo cirujano: Luego de elegir el primer cirujano, quedan 20 disponibles
+para el segundo puesto.
+19 posibilidades para el tercer cirujano: Finalmente, solo quedan 19 cirujanos disponibles para
+completar la terna.
+Al multiplicar las posibilidades de cada etapa, obtenemos el número total de ternas diferentes que se pueden
+formar.
+Nota:
+Es importante tener en cuenta que el orden en que se elige a los cirujanos no importa, ya que las ternas (A, B,
+C) y (B, A, C) se consideran la misma para la formación de guardias.
+b) El consejo directivo de una empresa farmacéutica tiene 10 miembros. Se ha programado una
+próxima reunión de accionistas para aprobar una nueva lista de ejecutivos (elegidos entre los 10
+miembros del consejo). El consejo de accionistas puede presentar para su aprobación ... listas
+diferentes formadas por un presidente, un vicepresidente, un secretario y un tesorero. Si 3 miembros
+del consejo de directores son médicos entonces de las listas anteriores hay ... listas con un medico
+nominado para la presidencia
+El consejo de accionistas puede presentar para su aprobación 210 listas diferentes formadas por un
+presidente, un vicepresidente, un secretario y un tesorero.
+Justificación: Para calcular el número de listas diferentes, se debe considerar el número de opciones para
+cada cargo:
+Presidente: Hay 10 miembros del consejo, por lo que hay 10 opciones para elegir al presidente.
+•
+Vicepresidente: Luego de elegir al presidente, quedan 9 miembros disponibles para el cargo de
+vicepresidente.
+• Secretario: Tras elegir al vicepresidente, quedan 8 miembros para elegir al secretario.
+• Tesorero: Finalmente, quedan 7 miembros para elegir al tesorero.
+•
+El número total de listas diferentes se calcula multiplicando las opciones para cada cargo:
+10*9*8*7 = 210
+Explicación:
+10 opciones para el presidente: Hay 10 miembros del consejo que pueden ser elegidos como presidente.
+9 opciones para el vicepresidente: Una vez elegido el presidente, solo quedan 9 miembros disponibles
+para el cargo de vicepresidente.
+8 opciones para el secretario: Tras elegir al vicepresidente, solo quedan 8 miembros para elegir al
+secretario.
+7 opciones para el tesorero: Finalmente, solo quedan 7 miembros para elegir al tesorero.
+Al multiplicar las opciones para cada cargo, se obtiene el número total de listas diferentes que se pueden
+formar.
+c) De las listas anteriores hay 120 listas con un médico nominado para la presidencia.
+Justificación: Para calcular el número de listas con un médico nominado para la presidencia, se debe
+considerar que hay 3 médicos en el consejo y 10 opciones para el cargo de presidente.
+•
+3 opciones para el presidente: Hay 3 médicos que pueden ser elegidos como presidente.
+•
+•
+9 opciones para el vicepresidente: Tras elegir al presidente, quedan 9 miembros disponibles para el
+cargo de vicepresidente, independientemente de si son médicos o no.
+8 opciones para el secretario: Similarmente, al elegir al secretario, solo se consideran las 8 opciones
+disponibles, sin importar la profesión.
+•
+7 opciones para el tesorero: Lo mismo ocurre para el cargo de tesorero, con 7 opciones disponibles.
+•
+El número total de listas con un médico como presidente se calcula multiplicando las opciones:
+3 9 8 7 = 120
+Explicación:
+3 opciones para el presidente: Hay 3 médicos que pueden ser elegidos como presidente.
+9 opciones para el vicepresidente: Hay 9 opciones para el cargo de vicepresidente, sin importar la
+profesión.
+• 8 opciones para el secretario: Hay 8 opciones para el cargo de secretario, sin importar la profesión.
+7 opciones para el tesorero: Hay 7 opciones para el cargo de tesorero, sin importar la profesión.
+•
+Al multiplicar las opciones, se obtiene el número total de listas diferentes que se pueden formar con un
+médico como presidente.
